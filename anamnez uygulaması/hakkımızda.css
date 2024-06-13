@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #373050;
+}
+
+header {
+    background-color: #87095E;
+    padding: 46px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a.active {
+    border-bottom: 2px solid #FF914D;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #87095E;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.feature img {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.feature div {
+    flex: 1;
+}
+
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature-item {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.feature-item img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4B0056;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Seçilen metnin stilini değiştirme */
+::selection {
+    background-color: #FF914D; /* Arka plan turuncu */
+    color: white; /* Metin beyaz */
+}
+
+::-moz-selection {
+    background-color: #FF914D; /* Arka plan turuncu */
+    color: white; /* Metin beyaz */
+}

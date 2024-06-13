@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1450px;
+    margin: auto;
+    padding: 20px;
+    height:  auto;
+    
+}
+
+header {
+    background-color: #4B0056;
+    color: white;
+    padding: 24px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.dashboard-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    height: 1400px;
+    margin-bottom: 70px;
+}
+
+.search-filter {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.search-filter input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-filter button {
+    padding: 10px;
+    background-color: #4B0056;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-filter button:hover {
+    background-color: #373050;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-bottom: 30px;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #373050;
+    color: white;
+}
+
+.chart-section {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin: 12px;
+    
+    width: 400px;
+    height: 400px;
+}
+
+.charts {
+    
+  
+    justify-content: space-around;
+}
+
+.charts canvas {
+    width: calc(50% - 40px);
+    height: 300px;
+    margin: 10px;
+    border:1px #ccc solid;
+    display: flex;
+}
+
+footer {
+    background-color: #373050;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.most-common {
+    text-align: center;
+    margin-top: 280px;
+    margin-bottom: 0px;
+}
+/* Seçilen metnin stilini değiştirme */
+::selection {
+    background-color: #FF914D; /* Arka plan turuncu */
+    color: white; /* Metin beyaz */
+}
+
+::-moz-selection {
+    background-color: #FF914D; /* Arka plan turuncu */
+    color: white; /* Metin beyaz */
+}
